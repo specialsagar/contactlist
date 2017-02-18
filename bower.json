@@ -1,0 +1,22 @@
+{
+  "name": "contactlist",
+  "description": "A simple responsive contact list in angularjs",
+  "main": "app.js",
+  "authors": [
+    "Sagar Shah"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/specialsagar/contactlist",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.2",
+    "angular-route": "^1.6.2",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

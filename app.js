@@ -16,7 +16,12 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+//load all images, js and css files
 app.use(express.static(path.join(__dirname, 'public')));
+
+//load all bower_components
+app.use(express.static(path.join(__dirname, 'bower_components')));
 
 app.get('*', function (req, res) {
     res.sendFile(__dirname + '/public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
