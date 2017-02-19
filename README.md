@@ -13,6 +13,6 @@ On Image click, a popup will open with the relavant info of the contact.
 
 Please enter the following commands on your terminal to start execute the project
 
-npm install
-bower install
-npm start
+$ npm install
+$ bower install
+$ npm-start
