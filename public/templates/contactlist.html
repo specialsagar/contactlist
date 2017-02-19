@@ -9,7 +9,7 @@
 
   <div class="row">
     <ul class="contact-list list">
-      <li class="col-xs-4 col-md-3 text-center" ng-repeat="contact in contactList | filter : {'name' : searchName}">
+      <li class="col-xs-4 col-md-3 text-center" ng-repeat="contact in contactList | orderBy: 'name' | filter : {'name' : searchName}">
         <div class="contact">
           <div class="contact-image-wrapper">
             <span class="contact-image-block" data-toggle="modal" data-target="#contactModal" ng-click="selectedContact(contact)">
