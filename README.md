@@ -8,11 +8,15 @@ As I am unable to fetch required multiple images, I have only used the first one
 Functionalities:- Search contact by name.
 On Image click, a popup will open with the relavant info of the contact.
 
+#Pre Installation Requirements
+nodejs, npm, bower.
 
 #Installation guide
 
 Please enter the following commands on your terminal to start execute the project
 
 $ npm install
+
 $ bower install
+
 $ npm-start
