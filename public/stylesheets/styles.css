@@ -1,42 +1,82 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+body {
+  background-color: #6a70ad;
+}
+/*show font on search bar*/
+.inner-addon .input-icon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
 }
 
-/*creating columns*/
-
-.sm-3 {
-  width: 33.33%
-}
-@media (min-width: 700px) {
-  .md-4 {
-    25%
-  }
+/* align icon */
+.left-addon .input-icon  {
+  left:  10px;
 }
 
-.contact{
+/* add padding  */
+.left-addon input  {
+  padding-left:  30px;
+}
+
+.search {
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0px 2px 15px #ddd;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-list {
+  display: block;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  -webkit-box-shadow: 0px 0px 50px 4px rgba(120,96,120,1);
-  -moz-box-shadow: 0px 0px 50px 4px rgba(120,96,120,1);
-  box-shadow: 0px 0px 50px 4px rgba(120,96,120,1);
-  border: 2px solid purple;
 }
 
-.contact-title {
-  width: 100%;
-  background-color: purple;
-  font-size: 1.5em;
-  font-weight: bold;
+.contact {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 2px 15px #ddd;
 }
 
-.contact-photo-container {
-  position: relative;
-  overflow: hidden;
-  height: 200px;
-  width: 100%;
+.contact-image-wrapper {
+  height: 180px;
   text-align: center;
+  overflow: hidden;
 }
-.contact-photo {
 
+.contact-image-block {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.contact-image-wrapper img {
+  display: block;
+  -webkit-transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out;
+}
+
+.contact-image-wrapper img:hover {
+  -o-transform: scale(1.2, 1.2) translateY(8%);
+  -moz-transform: scale(1.2, 1.2) translateY(8%);
+  -webkit-transform: scale(1.2, 1.2) translateY(8%);
+  -ms-transform: scale(1.2, 1.2) translateY(8%);
+  transform: scale(1.2, 1.2) translateY(8%);
+}
+
+.contact-info {
+  padding: 10px 0;
+}
+.contact-info i {
+  background-color: #ddd;
+  border-radius: 50%;
+  border: 5px solid #ddd;
 }
