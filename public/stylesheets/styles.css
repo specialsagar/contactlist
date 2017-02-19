@@ -80,3 +80,29 @@ img {
   border-radius: 50%;
   border: 5px solid #ddd;
 }
+
+.custom-modal-dialog {
+  width: 400px;
+}
+
+.custom-modal-content{
+  border-radius: 0;
+  box-shadow: 0px 2px 15px #ddd;
+}
+
+.modal-image-wrapper {
+  height: 240px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.modal-image-block {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.custom-btn {
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: white;
+}

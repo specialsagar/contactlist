@@ -11,13 +11,45 @@
     <ul class="contact-list list">
       <li class="contact col-xs-4 col-md-3 text-center">
         <div class="contact-image-wrapper">
-          <span class="contact-image-block"><img src="http://bit.ly/1onMfJL" alt=""></span>
+          <span class="contact-image-block" data-toggle="modal" data-target="#contactModal">
+            <img src="http://bit.ly/1onMfJL" alt="">
+          </span>
         </div>
         <div class="contact-info">
-          <h3>White Fancy Dress</h3>
+          <h3>Some name</h3>
           <span><i class="fa fa-phone"></i> +91 988-888-8888</span>
         </div>
       </li>
     </ul>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog custom-modal-dialog" role="document">
+    <div class="modal-content custom-modal-content">
+      <div class="modal-body">
+        <div class="modal-image-wrapper">
+          <span class="modal-image-block">
+            <img src="http://bit.ly/1onMfJL" alt="">
+          </span>
+        </div>
+        <div class="text-center">
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          <span><i class="fa fa-phone"></i> +91 988-888-8888</span>
+          <br>
+          <span><i class="fa fa-envelope"></i> contact@example.com</span>
+          <br>
+          <span><i class="fa fa-home"></i> B400, 31st Street, Somewhere in neighbourhood, New York.</span>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-center">
+          <button type="button" class="btn custom-btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
